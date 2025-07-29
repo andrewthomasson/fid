@@ -1,0 +1,274 @@
+h1 {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+}
+
+h2 {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: #b8c389;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Ovo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+  margin-bottom: 1em;
+  color:#2e4241;
+}
+
+em {
+    color: #868952;
+}
+
+q {
+  font-size: 30px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+ 
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #2e4241;
+  display: flex;
+  justify-content: center;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #b8c389;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #b8c389;
+  color: #2e4241;
+}
+
+
+.header {
+  background-image: url(coffeeshop2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #ddd;
+  color: #b8c389;
+  text-align: center;
+  text-shadow: .1em .1em .2em #2e4241;
+  padding: 10px; 
+}
+
+.content1 {
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.button {
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.content1 .btn {
+  background-color:#2e4241;
+  color:#b8c389;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.content1 .btn:hover {
+  background-color: #b8c389;
+  color: #2e4241;
+  text-decoration: none;
+}
+ 
+
+
+.content2 {
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.content2 p {
+    max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+}
+
+.content2 a {
+    color:#868952;
+}
+
+.content2 a:hover {
+    color:#2e4241
+}
+
+h3 {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 50px;
+     font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: #b8c389;
+  margin-bottom: 10px;
+
+}
+
+
+.content2 strong {
+   color: #2e4241;
+   font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.content2 img {
+    float: left;
+    border: none;
+    margin: 0 20px 15px 0;
+}
+
+.content2 .box {
+    border: 3px #2e4241;
+    padding: 15px;
+}
+
+.video-container {
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    opacity: .5;
+    z-index: 0;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #2e4241;
+  color: #b8c389;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+
+input[type=submit]:hover {
+  background-color: #868952;
+  color:#2e4241
+}
+
+.contact {
+  border-radius: 5px;
+  background-color: #b8c389;
+  padding: 20px;
+  margin: 10px 100px 50px 100px;
+
+    font-family: "Ovo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+  color: #2e4241;
+}
+
+.footer {
+  background-color: #2e4241;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  position:static;
+  left: 0;
+  bottom: 0;
+ 
+}
+
+.footer a {
+    color:#b8c389;
+    text-decoration: none;
+}
+
+.footer p {
+    color:#b8c389;
+}
+
+.footer a:hover {
+    color:#868952;
+}
+
+.updates-img {
+    width: 45%;
+    height: auto;
+}
+
+.about-img {
+    width: 70%;
+    height: auto;
+}
+
+.meettheowner-img {
+    width: 50%;
+    height: auto;
+}
+
+.menu-img {
+    width: 20%;
+    height: auto;
+}
