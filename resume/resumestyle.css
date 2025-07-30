@@ -124,18 +124,20 @@ h3 {
 footer {
 
     background-color: #ff5f5d;
-    color:#00ccbf;
+    color:white;
     padding-bottom: 10px;
+     text-shadow: .1em .1em .2em #2e4241;
 }
 
 footer h2 {
-    color:#00ccbf;
+    color:white;
     margin-left: 30px;
     margin-right: 30px;
+    
 }
 
 footer .social {
-    color:#00ccbf;
+    color:white;
 }
 
 footer .social:hover {
