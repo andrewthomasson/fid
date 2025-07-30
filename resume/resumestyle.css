@@ -1,0 +1,148 @@
+body {
+      margin: 0;
+  min-height: 100vh;
+}
+
+p {
+ font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+  margin-bottom: 1em;
+  color:#2e4241;
+   margin-left: 30px;
+  margin-right: 30px;
+
+}
+
+ul {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+  margin-bottom: 1em;
+  color: white;
+
+}
+
+.header {
+ /*background-image: url(images/myoldwomanmustbepaid2.png);*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #00ccbf;
+  color: #ff5f5d;
+  text-align: center;
+  text-shadow: .1em .1em .2em #2e4241;
+  padding: 10px; 
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+}
+
+
+
+h2 {
+    font-family: "Permanent Marker", curseive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #ff5f5d;
+    text-align: left;
+     margin-left: 30px;
+    margin-right: 30px;
+}
+
+h3 {
+     font-family: "Permanent Marker", curseive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #747e7e;
+    text-align: left;
+     margin-left: 30px;
+    margin-right: 30px;
+}
+
+.return {
+    color:#00ccbf;
+}
+
+.return:hover {
+    color:#72f2eb;
+}
+
+.software {
+  background-color: #747e7e;
+  background-size: cover;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.software h2 {
+    color: white;
+}
+
+.software ul {
+    padding-bottom: 60px;
+    margin-bottom: 0;
+}
+
+.skills {
+    background-color:#00ccbf;
+    background-size: cover;
+    color:#3f7c85;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.skills h2 {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.skills ul {
+    padding-bottom: 60px;
+    margin-bottom: 0;
+}
+
+.projects {
+     margin-left: 30px;
+    margin-right: 30px;
+}
+
+.projects .thumb:hover {
+    opacity: .5;
+}
+
+footer {
+
+    background-color: #ff5f5d;
+    color:#00ccbf;
+    padding-bottom: 10px;
+}
+
+footer h2 {
+    color:#00ccbf;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+footer .social {
+    color:#00ccbf;
+}
+
+footer .social:hover {
+    color:#72f2eb;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+}
